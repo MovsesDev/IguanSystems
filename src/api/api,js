@@ -1,0 +1,12 @@
+import axios from "axios";
+
+const instance = axios.create({
+  baseURL: ""
+});
+
+
+export const quoteApi = {
+  sendQuote() {
+    return instance.post()
+  }
+}
